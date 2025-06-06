@@ -24,20 +24,7 @@
 * After fitting the model, I predict the future sales for the next week and save it in the form  of dictionary for future use.
 * After that I create a column called future sales quantity by using the predicted sales and the ingredient quantity. 
 * Then I create the purchase order for next week for  all the total ingredients .
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
